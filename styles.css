@@ -1,0 +1,66 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('file:///C:/Users/LIYONGEN/Desktop/mental-health-platform/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ }
+ body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #0f0e0e;
+ }
+ header {
+    background-color: #333;
+    color: #171616;
+    padding: 10px;
+ }
+ nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+ }
+ nav li {
+    margin: 0 10px;
+ }
+ nav a {
+    color: #fcf5f5;
+    text-decoration: none;
+ }
+ #banner {
+    text-align: center;
+    padding: 50px 0;
+    color: #020202;
+ }
+ #main-content {
+    padding: 20px;
+    text-align: center;
+ }
+ .feature-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+ }
+ .feature-box a {
+    text-decoration: none;
+    color: #333;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+ }
+ .feature-box a:hover {
+    transform: translateY(-5px);
+ }
+ footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+ }

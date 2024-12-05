@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>心理健康平台</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            color: #0f0e0e;
+            background-image: url('https://img.tukuppt.com/bg_grid/00/18/06/omHskl6kBd.jpg!/fh/350'); /* 设置背景图像 */
+            background-size: cover; /* 背景图像覆盖整个网页 */
+            background-repeat: no-repeat; /* 背景图像不重复 */
+            background-attachment: fixed; /* 背景固定，当内容滚动时不动 */
+            display: flex; /* 使其能够使用flexbox */
+            flex-direction: column; /* 垂直排列内容 */
+            min-height: 100vh; /* 确保最小高度为100vh */
+        }
+        header {
+            background-color: rgba(51, 51, 51, 0.8); /* 加入透明度 */
+            color: #171616;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav li {
+            margin: 0 50px; /* 增大左右间隔 */
+        }
+        nav a {
+            color: #f8f4f4;
+            text-decoration: none;
+        }
+        #banner {
+            text-align: center;
+            padding: 30px 0;
+            color: #020202;
+        }
+        #banner h1 {
+            font-size: 48px; /* 设置更大的字体大小 */
+            line-height: 1.5; /* 增加行距，增强可读性 */
+        }
+        .center-text {
+            text-align: center; /* 文本居中对齐 */
+            margin: 5px 0; /* 增加上下边距 */
+        }
+        .center-text h2 {
+            font-size: 32px; /* 扩大欢迎文本的字体 */
+            line-height: 2.5; /* 增加行距 */
+            margin: 0; /* 去掉默认边距 */
+        }
+        .center-text p {
+            font-size: 20px; /* 扩大描述文本的字体 */
+            line-height: 1.5; /* 增加行距 */
+            margin: 0; /* 去掉默认边距 */
+        }
+        #main-content {
+            padding: 20px;
+            text-align: center;
+            flex: 1; /* 使主内容区域可扩展，推出footer */
+        }
+        .feature-box {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px; /* 增加间距 */
+        }
+        .feature-box a {
+            text-decoration: none;
+            color: #333;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+        .feature-box a:hover {
+            transform: translateY(-5px);
+        }
+        .feature-box a img {
+            width: 80px; /* 设置图标的宽度 */
+            height: auto; /* 保持纵横比 */
+            max-width: 100%; /* 确保图标在不同屏幕上不会超出其容器 */
+            margin-bottom: 10px; /* 图标与标题之间的间距 */
+        }
+        footer {
+            position: fixed; /* 固定到页面底部 */
+            bottom: 0; /* 与底部对齐 */
+            left: 0; /* 左侧对齐 */
+            width: 100%; /* 使宽度占满整个页面 */
+            padding: 5px 10px; /* 修改左/右边距，减少背景条的宽度 */
+            background-color: rgba(51, 51, 51, 0.8); /* 加入透明度 */
+            color: #fff;
+            text-align: center; /* 文本居中对齐 */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">首页</a></li>  <!-- 链接到当前页面 -->
+                <li><a href="https://www.xinlixue.cn/wp/">心理健康测试</a></li> <!-- 指向心理健康测试页面 -->
+                <li><a href="https://www.cnnmh.cn/encyclopedia.php">心理健康知识</a></li>
+                <li><a href="https://www.cnnmh.cn/counseling.php">心理咨询介绍</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="banner">
+            <h1>关注心理健康，拥抱美好生活</h1>
+        </section>
+        <div class="center-text">
+            <h2>欢迎来到我们的心理健康平台</h2>
+            <p>在这里你可以找到专业的心理健康支持和知识</p>
+        </div>
+        <section id="main-content">
+            <div class="feature-box">
+                <a href="https://www.xinlixue.cn/wp/"> <!-- 更新心理测试链接 -->
+                    <img src="https://ts1.cn.mm.bing.net/th/id/R-C.3e734b23305464030036faab204db01c?rik=ACfg5PtSTDYUJg&riu=http%3a%2f%2fpic.j9p.com%2fup%2f2021-10%2f20211014154152952.png&ehk=238FAeUVGpUH1dsI4ds7yhaqgVEMPFDWU%2bPiaiBvraE%3d&risl=&pid=ImgRaw&r=0" alt="心理健康测试">
+                    <h3>进行心理测试</h3>
+                </a>
+                <a href="https://www.cnnmh.cn/encyclopedia.php">
+                    <img src="https://tse2-mm.cn.bing.net/th/id/OIP-C.6AnF3zprepQ220lF3CWRNwHaHf?rs=1&pid=ImgDetMain" alt="心理健康知识"> 
+                    <h3>学习心理健康知识</h3>
+                </a>
+                <a href="https://www.cnnmh.cn/counseling.php">
+                    <img src="https://tse1-mm.cn.bing.net/th/id/OIP-C.g9rz8qMB6toOmLxf5F2TtwHaHa?rs=1&pid=ImgDetMain" alt="咨询服务"> 
+                    <h3>专业咨询介绍</h3>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 心理健康平台. 版权所有.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
